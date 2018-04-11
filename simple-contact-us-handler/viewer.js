@@ -4,7 +4,6 @@ exports.handler = function (event, context, callback) {
 	let searchDate = event.queryStringParameters.date;
 	let response = {
 		body: "",
-		headers:{},
 		statusCode: 200,
 		isBase64Encoded: false
 	}
